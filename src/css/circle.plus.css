@@ -1,0 +1,29 @@
+    .circle{
+        padding: 0.65rem;
+        border:3px solid #00f;
+        width:20px;
+        height:20px;
+        border-radius:100%;
+        position:relative;
+        margin:4px;
+        display:inline-block;
+        vertical-align:middle;
+        }
+    .circle.plus:before,
+    .circle.plus:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:green;
+    }
+    .circle.plus:before{
+        width: 4px;
+        margin: 2px auto;
+    }
+    .circle.plus:after{
+        margin: auto 2px;
+        height: 4px;
+    }

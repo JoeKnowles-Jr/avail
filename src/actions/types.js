@@ -1,0 +1,13 @@
+export const AUTH_USER = 'auth_user';
+export const UNAUTH_USER = 'unauth_user';
+export const AUTH_ERROR = 'auth_error';
+export const USER_DASH = 'user_dash';
+export const ALL_USERS = 'all_users';
+export const ALL_GROUPS = 'get_groups';
+export const CREATE_GROUP = 'create_group';
+export const JOIN_GROUP = 'join_group';
+export const USER_GROUPS = 'user_groups';
+export const CLEAR_GROUP_MESSAGE = 'clear_group_message';
+export const REQUEST_JOIN_GROUP = 'request_join_group';
+export const CREATE_AVENT = 'add_avent_success';
+export const ADD_AVAIL_SUCCESS = 'add_avail_success';
